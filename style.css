@@ -1,0 +1,207 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color: #00274C;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00517E;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+.header-img{
+	width: 100%;
+	height: 500px;
+}
+
+.container{
+	position: relative;
+  text-align: center;
+  color: white;
+}
+
+#call_Action{
+	width: 30%;
+	text-align: left;
+	font-weight: bolder;
+	font-size: 40px;
+	position: absolute;
+  	top: 40%;
+  	left: 80%;
+  	transform: translate(-50%, -50%);
+}
+#call_button{
+	text-decoration: none;
+	background-color:  #00A4EB;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-size: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: absolute;
+  	top: 65%;
+  	left: 70%;
+  	transform: translate(-50%, -50%);
+}
+
+#side-img{
+	float: right;
+	margin-top: 0px;
+	width: 369px;
+	height: 450px
+	
+}
+
+#sub-head1{
+	color: white;
+	width: 76%;
+	margin: 0px;
+	background-color: #001790;
+	text-align: center;
+}
+
+#sub-text{
+	font-family: Quicksand;
+	color: white;
+	width: 71%;
+	text-align: left;
+	font-size: 40px;
+	background-color: #001959;
+	border-radius: 10px;
+	float: right;
+	margin-right: 50px;
+}
+
+.column {
+  float: left;
+  width: 30.33%;
+  padding: 2px;
+  margin: 0px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.img-desc{
+	color: white;
+	background-color: #06A4D6;
+	text-align: center;
+	width: 50%
+}
+
+#sub-head2{
+	color: white;
+	margin: 0px;
+	background-color: #001790;
+	text-align: center;
+	font-size: 60px
+}
+
+#rules{
+	color: white;
+	font-size: 40px;
+	width: 50%;
+	display: inline-block;
+  text-align: left;
+}
+
+.list-contain{
+	text-align: center;
+}
+
+.list{
+	padding-bottom: 20px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #00517E;
+  color: white;
+  text-align: center;
+}
+
+#catalog-header{
+	text-align: center;
+	color:white;
+	font-size: 50px;
+	margin-bottom: 0px;
+}
+
+#catalog-text{
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	
+}
+div.creatures {
+    float: left;
+    margin: 2px;
+}
+
+div p {
+    text-align: center;
+	color: white;
+}
+
+
+
+.catalog-subheader{
+	color: white;
+	font-size: 30px;
+	width: 15%;
+	text-align: center;
+}
+
+th{
+	color: white;
+}
+
+td{
+	color: white;
+	text-align: center;
+}
+#tickets{
+	margin-left: auto;
+  margin-right: auto;
+}
+#hours{
+	margin-left: auto;
+  margin-right: auto;
+}
+
+.prices{
+	color: white;
+	text-align: center;
+}
